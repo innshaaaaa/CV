@@ -1,5 +1,5 @@
 body{
- margin: none;
+ margin: 0px;
 }
 div{
  
@@ -38,7 +38,21 @@ h3{
 }
 .btn
 {
- color: #395B64;
+ color: #A5C9CA;
+ background: #A5C9CA;
+ background-image: -webkit-linear-gradient(top, #A5C9CA);
+ background-image: -moz-linear-gradient(top, #A5C9CA);
+ background-image: -ms-linear-gradient(top, #A5C9CA);
+ background-image: -o-linear-gradient(top, #A5C9CA);
+ background-image: linear-gradient(to bottom, #A5C9CA);
+ -webkit-border-radius: 8;
+ -moz-border-radius: 8;
+ border-radius: 8px;
+ font-family: 'Montserrat', sans-serif;
+ color: #ffffff;
+ font-size: 20px;
+ padding: 10px 20px 10px 20px;
+ text-decoration: none
 }
 
 .footer-link{
@@ -51,6 +65,9 @@ h3{
 }
 .design-png{
  width: 300px;
+ float: left;
+ margin-right: 30px
+
 }
 .top-cloud{
   position: absolute;
@@ -65,22 +82,66 @@ h3{
   
 }
 
+a:hover {
+  color: #cfe8e8;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  padding: 20px;
+}
+
+.skill-img {
+  height: 100%;
+  width: 25%;
+  border-radius: 50%;
+
+}
+
   
 
 hr{
-  border-style: none;
-  border-top-style: dotted;
-  width: 5%;
-  color: #2c3333;
-  height: 50px;
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 .programmer{
   color: #E7F6F2;
 }
 .developer-png{
-  width: 300px;
+  width: 200px;
+  float: right;
+  margin-left: 30px;
 }
 .brush{
   width: 300px;
   padding-top: 100px;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.bottom-container{
+  background-color: #A5C9CA;
+  padding: 50px 0 20px;
+}
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.middle-container{
+  margin: 100px 0;
+}
+.design-padding{
+
+  text-align: right;
 }
