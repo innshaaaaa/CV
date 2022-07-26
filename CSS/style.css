@@ -1,0 +1,84 @@
+body{
+ margin: none;
+}
+div{
+ 
+ text-align: center;
+ font-family: 'Merriweather', serif;
+ margin: 0%;
+ 
+}
+.top-container{
+  position: relative;
+  padding-top: 100px;
+  background-color:#A5C9CA ;
+}
+.ball{
+  font-size: 90px;
+  color: #E7F6F2;
+ font-family: 'Sacramento', cursive;
+}
+p{
+ font-family: 'Open Sans', sans-serif;
+ color: #2c3333;
+ 
+}
+
+
+
+h2{
+ color:#395B64 ;
+ font-family: 'Montserrat', sans-serif;
+
+}
+h3{
+ color: #395B64;
+ 
+ 
+}
+.btn
+{
+ color: #395B64;
+}
+
+.footer-link{
+ color: #395B64 ;
+}
+.contact-me{
+ color: #395B64;
+}
+.design-png{
+ width: 300px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 30px;
+}
+.mybottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  
+  
+}
+
+  
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  color: #2c3333;
+  height: 50px;
+}
+.programmer{
+  color: #E7F6F2;
+}
+.developer-png{
+  width: 300px;
+}
+.brush{
+  width: 300px;
+  padding-top: 100px;
+}
